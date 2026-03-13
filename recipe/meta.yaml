@@ -1,14 +1,14 @@
 {% set name = "ticoi" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
-  
+
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ticoi-{{ version }}.tar.gz
-  sha256: 544002669e05bec6b9c987ca7da0be87110fcd19fb3e0ad9efee1caaac899504
+  sha256: d131450c53aef0c33b2c5c29aa89e6b538ceabccd97e887e96532826daf99263
 
 build:
   noarch: python
